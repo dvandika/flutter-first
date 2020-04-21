@@ -44,7 +44,7 @@ class _LoginState extends State<Login> {
       body: Form(
         key: _key,
         child: ListView(
-          padding: EdgeInsets.all(15ta),
+          padding: EdgeInsets.all(15),
           children: <Widget>[
             TextFormField(
               validator: (e) {
